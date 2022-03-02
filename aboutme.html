@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <title>About me</title>
+        <link rel="stylesheet" href="index.css">
+        <script>
+        </script>
+        
+
+    </head>
+    <body>
+        <div id="nav">
+            <ul>
+                <li class="li1"><a href="index.html">Home</a></li>
+                <li class="li2"><a class="active">About me</a></li>
+                <li class="li3"><a href="socials.html">Socials</a></li>
+              </ul>
+        </div>
+        </div>
+        <div id="aboutme">
+            <div id="box">
+                <h1>About me</h1>
+                <div id="intro">
+                <p>Hihiii I'm Sophie as you already know and I'm neptunic lesbian, ace, trans, catgirl also I know how to code</p>
+                </div>
+                <div id="likes">
+                <p>Likes: Anime, gaming, streaming, talking, listening to music, hugging and kissing</p>
+                </div>
+                <div id="a2" class="panel">
+                    <p>Animes I like</p>
+                    <button class="button" id="a">Click to show</button>
+                  </div>
+                  <div id="anime" class="panel" hidden>
+                    <p>Animes I like</p>
+                    <p>K-ON, Yuru Yuri, Non Non Biyori, Your Name, My Neighbor Totoro, Re zero, most slice of life animes</p>
+                  </div>      
+                  <script>
+                  document.getElementById("a")
+                          .addEventListener("click", function() {
+                    document.getElementById("a2").hidden = true;
+                    document.getElementById("anime").hidden = false;
+                  }, false);
+                  </script>
+                  
+                  <div id="g2" class="panel">
+                    <p>Games I play</p>
+                    <button class="button" id="g">Click to show</button>
+                  </div>
+                  <div id="games" class="panel" hidden>
+                    <p>Games I play</p>
+                    <p>Minecraft, Rhythm games(Osu, Cytus, DEEMO, Phigros Muse Dash etc), and a lot more</p>
+                  </div>
+                  <script>
+                  document.getElementById("g")
+                          .addEventListener("click", function() {
+                    document.getElementById("g2").hidden = true;
+                    document.getElementById("games").hidden = false;
+                  }, false);
+                  
+                  
+                  </script>
+
+
+                
+                </div>                
+            </div>
+
+        </div>
+    </body>
+</html>

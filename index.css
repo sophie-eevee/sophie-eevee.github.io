@@ -1,0 +1,78 @@
+﻿body {
+  background-color:#fdc7e8;
+  background-image: url('Hello_kitty.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.li1 {
+  
+  background-color: rgb(255, 219, 122);
+  width: 1000px;
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.li2 {
+  background-color: rgb(255, 219, 122);
+  width: 1000px;
+  height: 50px;
+}
+
+.li3 {
+  
+  background-color: rgb(255, 219, 122);
+  width: 1000px;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+#box {
+    margin: 25px;
+    border: #ffffff, thick, 7px,;
+    background-color:#ffb8d6;
+    width:200px;
+    border-radius: 15px 15px 15px 15px;
+}
+#games {
+  background-color: #b9bbff;
+}
+#anime {
+  background-color: #b9bbff;
+}
+#intro {
+  background-color: #b9bbff;
+}
+#likes {
+  background-color: #b9bbff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(255, 189, 102);
+  }
+  
+  .active {
+    background-color: #b9bbff;
+  }
+  .li1 .active{
+    
+    border-radius: 10px 10px 0px 0px;
+    }
+  .li3 .active{
+    
+  border-radius: 0px 0px 10px 10px;
+  }
